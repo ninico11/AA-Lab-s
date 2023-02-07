@@ -49,7 +49,7 @@ int main()
 		cout<<fixed;
 		end = clock();
 		double time_taken = double(end - begin) / double(CLOCKS_PER_SEC);
-		cout << setprecision(6) << time_taken << ",\n";
+		cout << setprecision(6) << time_taken << "\n";
 	}
 	return 0;
 }
